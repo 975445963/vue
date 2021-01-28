@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "_czc": true
+  },
+  "extends": [
+    "prettier",
+    "prettier/vue",
+    "plugin:prettier/recommended",
+    "plugin:vue/essential",
+    "@vue/standard"
+  ],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "no-return-await": "off",
+    "space-before-function-paren": "off"
+  }
+}
